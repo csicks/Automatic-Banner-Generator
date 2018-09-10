@@ -35,7 +35,9 @@ Finally, you need to run the file 'InsideTextLayoutOneFixed.py' or 'InsideTextLa
 
 As is said above, here are only part of the project, mainly the algorithms with no UI.
 
-I have also attahed some other codes of this project. Some of them are used to see some process pictures or results. Some of them are codes for convenience. And some of them are algorithms codes modified to function version which are more easy to use in the websites. I put them here in case that you may need them.
+I have also attahed some other codes of this project. Some of them are used to see some process pictures or results. Some of them are codes for convenience. And some of them are algorithms codes modified to function version which are more easy to use in the websites. I put them here in case that you may need them. Please note that some of these codes are in Matlab.
+
+I have also put a algorithm flowchart of the first step in this repositories. It's in Chinese. I get no time to draw algorithm flowcharts of other steps or translate the first algorithm flowchart to English.
 
 There are many codes and features which can be improved but I do not plan to do that.
 
