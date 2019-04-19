@@ -1,7 +1,7 @@
 # Automatical-Banner-Generator
-Algorithms of a automatical banner generator (Python)
+Algorithms of a automatical banner generator (Python3)
 
-This is an implementation of a automatical banner generator, which receives a background picture, a model picture and several texts as input and then it outputs a well-designed banner. The algorithms are data-driven algorithms, relying on a dataset which contains over 8000 banners designed by human desigeners. If you need the dataset, please contact me by email yxchen11@outlook.com. Or you can create a dataset by yourself.
+This is an implementation of a automatical banner generator, which receives a background picture, a model picture and several texts as input and then it outputs a well-designed banner. The algorithms are data-driven algorithms, relying on a dataset which contains over 8000 banners designed by human desigeners. ~~If you need the dataset, please contact me by email yxchen11@outlook.com. Or you can create a dataset by yourself.~~ Please see the "Additional words" at the bottom of this "README" file for information about dataset.
 
 These codes are part of my internship work in inlab, Zhejiang University. We tried to build a website by Django to realize the automatical banner generator and my part was designind and implement the generating algorithms.
 
@@ -42,3 +42,7 @@ I have also put a algorithm flowchart of the first step in this repositories. It
 There are many codes and features which can be improved but I do not plan to do that.
 
 Finished in 2018.
+
+
+## Additional words:
+I have received some emails about the dataset recently. However, since I have finished the internship in Inlab, Zhejiang University about half a year ago, I have no ownership of the project now. I also attached one picture and its label here in directory "DatasetFormat" which may help you understand how the label works. You may also create your own dataset according to this "DatasetFormat". But if you want more information about the dataset, please contact Dr. You(尤伟涛博士) or Prof. Dr. Sun(孙凌云教授) in Inlab, Zhejiang University. You may find their information in the official website of Zhejiang University. 
