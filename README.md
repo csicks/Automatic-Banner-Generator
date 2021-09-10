@@ -1,11 +1,11 @@
 # Automatical-Banner-Generator
-Algorithms of a automatical banner generator (Python3)
+Algorithms of an automatic banner generator (Python3)
 
-This is an implementation of a automatical banner generator, which receives a background picture, a model picture and several texts as input and then it outputs a well-designed banner. The algorithms are data-driven algorithms, relying on a dataset which contains over 8000 banners designed by human desigeners. ~~If you need the dataset, please contact me by email yxchen11@outlook.com. Or you can create a dataset by yourself.~~ Please see the "Additional words" at the bottom of this "README" file for information about dataset.
+This is an implementation of an automatic banner generator, which receives a background picture, a model picture and several texts as input and then it outputs a well-designed banner. The algorithms are data-driven algorithms, relying on a dataset which contains over 8000 banners designed by human desigeners. ~~If you need the dataset, please contact me by email yxchen11@outlook.com. Or you can create a dataset by yourself.~~ Please see the "Additional words" at the bottom of this "README" file for more information about the dataset.
 
-These codes are part of my internship work in inlab, Zhejiang University. We tried to build a website by Django to realize the automatical banner generator and my part was designind and implement the generating algorithms.
+These codes are part of my internship work in inlab, Zhejiang University. We tried to build a website by Django to realize the automatical banner generator and my part was designining and implementing the generating algorithms.
 
-There are few comments in these codes. But two slides are included in this repository, one in Chinese and another one in English. Though they are not made to explain the algorithms, they may help you understand these algorithms.
+There are few comments in these codes. But two slides are included in this repository, with one in Chinese and the other one in English. Though they are not made to explain the algorithms, they may help you understand these algorithms.
 
 In our algorithms, we only consider such situation: one model, one or two text groups.
 
@@ -18,7 +18,7 @@ Before running the codes, you need to modify all the file path in the codes.
 
 After that,
 
-Firstly, you need to run the file 'ClusteringTextMerge.py'  and then you will get a folder filled with txt file in which there are positions of all the  text groups in a given picture.
+Firstly, you need to run the file 'ClusteringTextMerge.py' and then you will get a folder filled with txt file in which there are positions of all the text groups in a given picture.
 
 Secondly, you need to run the file 'ClusteringAllOne2OneAngle.py' or 'ClusteringAllOne2TwoAngle.py'. 'One2One' means there are one model and one text group. 'One2Two' means there are one model and two text groups. After running the codes, you will get several txt files in which you will get some information about the clustering results.
 
@@ -33,13 +33,13 @@ Finally, you need to run the file 'InsideTextLayoutOneFixed.py' or 'InsideTextLa
 
 ## Final words:
 
-As is said above, here are only part of the project, mainly the algorithms with no UI.
+As is said above, here are only one part of the project, mainly algorithms with no UI.
 
-I have also attahed some other codes of this project. Some of them are used to see some process pictures or results. Some of them are codes for convenience. And some of them are algorithms codes modified to function version which are more easy to use in the websites. I put them here in case that you may need them. Please note that some of these codes are in Matlab.
+I have also attahed some other codes of this project. Some of them are used to visualize pictures or results in the progress. Some of them are codes just for convenience. And some of them are algorithms codes modified to function version which are more easy to be used in the website. I put them here in case that you may need them. Please note that some of these codes are in Matlab.
 
-I have also put a algorithm flowchart of the first step in this repositories. It's in Chinese. I get no time to draw algorithm flowcharts of other steps or translate the first algorithm flowchart to English.
+I have also put a algorithm flowchart of the first step in this repositories. It's in Chinese. I get no time to draw algorithm flowcharts for other steps or translate the first algorithm flowchart to English.
 
-There are many codes and features which can be improved but I do not plan to do that.
+There are many codes and features which can be improved but I do not plan to do that since the internship has finished.
 
 Finished in 2018.
 
