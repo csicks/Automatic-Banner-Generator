@@ -18,17 +18,17 @@ Before running the codes, you need to modify all the file path in the codes.
 
 After that,
 
-Firstly, you need to run the file 'ClusteringTextMerge.py' and then you will get a folder filled with txt file in which there are positions of all the text groups in a given picture.
+- Firstly, you need to run the file 'ClusteringTextMerge.py' and then you will get a folder filled with txt file in which there are positions of all the text groups in a given picture.
 
-Secondly, you need to run the file 'ClusteringAllOne2OneAngle.py' or 'ClusteringAllOne2TwoAngle.py'. 'One2One' means there are one model and one text group. 'One2Two' means there are one model and two text groups. After running the codes, you will get several txt files in which you will get some information about the clustering results.
+- Secondly, you need to run the file 'ClusteringAllOne2OneAngle.py' or 'ClusteringAllOne2TwoAngle.py'. 'One2One' means there are one model and one text group. 'One2Two' means there are one model and two text groups. After running the codes, you will get several txt files in which you will get some information about the clustering results.
 
-Thirdly, you need to run the file 'productFilter.py' which will select the pictures having similar model shape with the input model. And the output is a txt file stating the pictures' name.
+- Thirdly, you need to run the file 'productFilter.py' which will select the pictures having similar model shape with the input model. And the output is a txt file stating the pictures' name.
 
-Fourthly, you need to run the file 'SelectPicture.py' which will select some pictures according to the file generated in the third step.
+- Fourthly, you need to run the file 'SelectPicture.py' which will select some pictures according to the file generated in the third step.
 
-Fifthly, you need to run the file 'GaussianClusterOne2One.py' or 'GaussianClusterOne2Two.py'. The meaning of 'One2One' and 'One2Two' has been stated in the second step. After running this file, you will get the abstract layout of each clustered class.
+- Fifthly, you need to run the file 'GaussianClusterOne2One.py' or 'GaussianClusterOne2Two.py'. The meaning of 'One2One' and 'One2Two' has been stated in the second step. After running this file, you will get the abstract layout of each clustered class.
 
-Finally, you need to run the file 'InsideTextLayoutOneFixed.py' or 'InsideTextLayoutTwoFixed.py' which will decide the layouts in the text groups. And you will get the final results. Please note that you need to put the font files to the right path and change the names of the files so that you will get no error for this part.
+- Finally, you need to run the file 'InsideTextLayoutOneFixed.py' or 'InsideTextLayoutTwoFixed.py' which will decide the layouts in the text groups. And you will get the final results. Please note that you need to put the font files to the right path and change the names of the files so that you will get no error for this part.
 
 
 ## Final words:
