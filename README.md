@@ -1,7 +1,7 @@
 # Automatic-Banner-Generator
 Algorithms of an automatic banner generator (Python3)
 
-This is an implementation of an automatic banner generator, which receives a background picture, a model picture and several texts as input and then it outputs a well-designed banner. The algorithms are data-driven algorithms, relying on a dataset which contains over 8000 banners designed by human designers. ~~If you need the dataset, please contact me by email yxchen11@outlook.com. Or you can create a dataset by yourself.~~ Please see the "Additional words" at the bottom of this "README" file for more information about the dataset.
+This is an implementation of an automatic banner generator, which receives a background picture, a model picture and several texts as input and then it outputs a well-designed banner. The algorithms are data-driven algorithms, relying on a dataset which contains over 8000 banners designed by human designers. Please see the "Additional words" at the bottom of this "README" file for more information about the dataset.
 
 These codes are part of my internship work in inlab, Zhejiang University. We tried to build a website by Django to realize the automatic banner generator and my part was designing and implementing the generating algorithms.
 
